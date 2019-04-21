@@ -13,6 +13,11 @@ api_callers
 .. image:: https://pyup.io/repos/github/williamcaesar/API_callers/shield.svg
      :target: https://pyup.io/repos/github/williamcaesar/API_callers/
      :alt: Updates
+     
+     
+.. image:: https://api.codeclimate.com/v1/badges/0d12be035a4fc86a5fb4/maintainability
+   :target: https://codeclimate.com/github/williamcaesar/API_callers/maintainability
+   :alt: Maintainability
 
 
 
