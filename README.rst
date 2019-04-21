@@ -15,7 +15,7 @@ api_callers
 
 
 .. image:: https://pyup.io/repos/github/williamcaesar/api_callers/shield.svg
-     :target: https://pyup.io/repos/github/williamcaesar/api_callers/
+     :target: https://pyup.io/repos/github/williamcaesar/API_callers/
      :alt: Updates
 
 
