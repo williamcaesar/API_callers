@@ -14,7 +14,7 @@ api_callers
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/williamcaesar/api_callers/shield.svg
+.. image:: https://pyup.io/repos/github/williamcaesar/API_callers/shield.svg
      :target: https://pyup.io/repos/github/williamcaesar/API_callers/
      :alt: Updates
 
