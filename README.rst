@@ -24,7 +24,6 @@ A set of tools to work with JWT APIs
 
 
 * Free software: GNU General Public License v3
-* Documentation: https://api-callers.readthedocs.io.
 
 
 Features
