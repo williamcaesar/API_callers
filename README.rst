@@ -3,16 +3,12 @@ api_callers
 ===========
 
 
-.. image:: https://img.shields.io/pypi/v/api_callers.svg
-        :target: https://pypi.python.org/pypi/api_callers
+.. image:: https://img.shields.io/pypi/v/API-callers.svg
+        :target: https://pypi.python.org/pypi/API-callers
 
-.. image:: https://img.shields.io/travis/williamcaesar/api_callers.svg
-        :target: https://travis-ci.org/williamcaesar/api_callers
-
-.. image:: https://readthedocs.org/projects/api-callers/badge/?version=latest
-        :target: https://api-callers.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
+.. image:: https://travis-ci.com/williamcaesar/API_callers.svg?branch=master
+    :target: https://travis-ci.com/williamcaesar/API_callers
+        
 
 .. image:: https://pyup.io/repos/github/williamcaesar/API_callers/shield.svg
      :target: https://pyup.io/repos/github/williamcaesar/API_callers/
