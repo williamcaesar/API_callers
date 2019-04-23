@@ -9,8 +9,7 @@ deploy:
   provider: pypi
   distributions: sdist bdist_wheel
   user: williamcaesar
-  password:
-    secure: 3nMKxm38n0j7qRB81klsaEdYizgfXyuU219/6nZZICmJ3Fq1uwFzRtY2g4ltJOyuEn7bRGMIwsCgA44ZYd+9Y9C3vkaXHkiAX9AAC8wss650TYaSixrCVDf50VizvxuQqsZx/9sUmmAesDmhRigPzGkve3MFqWn/0aroFQQTEVZQzGbVb72wYJzdtY5pDG+zhz/dY7ccyfWVWw5ND1eC1NIWFM5qLSBwzqm7SkN+JdU4dtdFh4zixnd9CucZK1c5uaMzXu1z9o4WwT25zKDoieiP7tJKKJ++Ccqb2PbMlsKyzHih2J2OCK+gjd+y6M6bizZlDwar9O7AYvAM7p3BpAdxFsmMUhrbEbBofhm+dwoVCrX7IpfB6snjOt0557RMYpsRD0+9xSQwUHLTbqVD/As14VYoQOPzOx5V57QbtKnBJUPgV47Hil8r1cmkbPDjV9gp00zfCZ9mM7DKhXbsud/uV9Gt08v2ORErPD44pxHXwRdiAXGjXgJYh7lJ0+sqv96GaBDhdGQ9tBvI5QpFlwd4PwZCwZfpROp/0IvbAAR1NW+mzbpye0yEpZoc2+H+twQXrejALXwBsDngjxtUfV5tUJy83YjA7HNm2NvR7GVL6YMs/+KGpikvvSSw0aitscz/PSJFaJ/wZ4MC0Xl1T1acIZ4dC78lT6DWR3v3/0s=
+  password: [secure]
   on:
     tags: true
     repo: williamcaesar/api_callers
