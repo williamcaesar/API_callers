@@ -12,5 +12,5 @@ deploy:
   password: [secure]
   on:
     tags: true
-    repo: williamcaesar/api_callers
+    repo: williamcaesar/API_callers
     python: 3.6
