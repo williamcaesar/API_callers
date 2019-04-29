@@ -14,7 +14,8 @@ class SyncCaller:
     def send(self):
         for payload in self.payloads:
             response = requests.post(self.url, json=payload, headers=self.headers)
-            self.responses.append(response)
+            self.responses.append({'payload': payload,
+                                   'response': response})
         return self.responses
 
     @property
