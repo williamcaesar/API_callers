@@ -9,6 +9,7 @@ class TestSyncCaller(TestCase):
                             {'payload': 'payloads'},
                             'https://jsonplaceholder.typicode.com/posts')
         response = caller.send()
+        print(response)
         self.assertEqual(len(response), 1)
         self.assertIsInstance(response, list)
         self.assertIsInstance(response[0]['response'], Response)
