@@ -10,7 +10,7 @@ deploy:
   skip_cleanup: true
   distributions: sdist bdist_wheel
   user: williamcaesar
-  password: [secure]
+  password: ${password}
   on:
     tags: true
     repo: williamcaesar/API_callers
