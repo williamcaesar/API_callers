@@ -2,17 +2,25 @@
 
 import requests
 
+from abc import ABC
 
-class SyncCaller:
-    """
-    Call a set of API calls asynchronously.
-    """
+
+class Caller(ABC):
     def __init__(self, headers, payloads, url):
         self.url = url
         self.headers = headers
         self.payloads = payloads
         self.responses = list()
 
+    @property
+    def results(self):
+        pass
+
+
+class SyncCaller(Caller):
+    """
+    Call a set of API calls asynchronously.
+    """
     def _build(self, payload):
         if type(payload) == dict and 'metadata' in payload.keys():
             metadata = payload['metadata']
