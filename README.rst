@@ -30,7 +30,8 @@ A set of tools to work with JWT APIs
 Features
 --------
 
-* TODO
+* Sync Caller
+* Async Caller
 
 Credits
 -------
